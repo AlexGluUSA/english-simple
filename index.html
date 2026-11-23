@@ -11,6 +11,14 @@ button:focus-visible,select:focus-visible{outline-color:#14b8a6}
 .sound{background:#eaf3ff;border-color:#d3e5ff}
 .save-phrase.saved{background:#d9f3ee;border-color:#92d9cc;color:#176d76}
 .irreg-group-title{color:#3155c8}
+/* Palette A refinement: warm yellow audio accents and soft gray translation surfaces */
+.sentence .ru{background:#f2f4f8;border-radius:8px;padding:8px 10px;margin-top:8px;color:#344663}
+.sound{background:#fff1c9;border-color:#f0d997;color:#946400}
+.sound:hover{background:#ffe9a5}
+#lessonHint{display:inline-block;background:#fff4d7;color:#795a17;border-radius:9px;padding:7px 10px;line-height:1.45}
+.save-phrase{background:#e8f6f1;border-color:#c5e9dd;color:#177b6a}
+.save-phrase.saved{background:#ccefe3;border-color:#86cdb8;color:#116d5b}
+@media(max-width:480px){.sentence .ru{padding:7px 8px}}
 </style></head><body><main><header><h1>English Simple</h1><p>10 предложений на одной странице • учимся сравнивать конструкции</p><button id="openOverview" class="table-trigger">▦ Таблица времён — на весь экран</button><button id="openBook" class="book-open">★ Мой разговорник (<span id="bookCount">0</span>)</button></header>
 <section class="card" id="lessonSelector"><h2>Выбор урока</h2><div class="fields"><div class="field"><label for="kind">Тип предложения</label><select id="kind"><option value="q">Вопросы</option><option value="a">Утверждения</option><option value="n">Отрицания</option></select></div><div class="field"><label for="tense">Время</label><select id="tense"><option value="f">Будущее (Future Simple)</option><option value="p">Настоящее (Present Simple)</option><option value="s">Прошедшее (Past Simple)</option><option value="irregular">Неправильные глаголы</option></select></div></div><p class="hint" id="lessonHint">Future Simple · Вопросы · Will + местоимение + глагол?</p><div id="pronounArea"><label>Местоимение</label><div class="pronouns" id="pronouns"></div></div></section>
 <section class="card"><h2>Настройки</h2><div class="fields"><div class="field"><label for="mode">Транскрипция</label><select id="mode"><option value="cy">Кириллица</option><option value="ipa">Международная IPA</option><option value="both">Кириллица + IPA</option><option value="none">Без транскрипции</option></select></div><div class="field"><label for="speed">Скорость произношения</label><select id="speed"><option value="0.55">Очень медленно · 0,55×</option><option value="0.7">Медленно · 0,7×</option><option value="0.85">Умеренно · 0,85×</option><option value="1">Обычная речь · 1×</option></select></div></div><p><label><input type="checkbox" id="translation" checked> Показывать русский перевод</label></p></section>
