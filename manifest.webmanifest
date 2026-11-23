@@ -1,0 +1,19 @@
+{
+  "name": "English Simple — английский с нуля",
+  "short_name": "English Simple",
+  "description": "Простые английские времена, произношение и личный разговорник",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f5fc",
+  "theme_color": "#244ec0",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
